@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Saxena</title>
+  <link type="image/png" sizes="96x96" rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="aos.css">
+  <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-01DMTHEWBT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-01DMTHEWBT');
+  </script>
+
+  <!-- Hotjar Tracking Code -->
+  <script>
+    (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3433975,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+      <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+        <span class="h3 fw-bold d-block d-lg-none">Dhruv Saxena | Portfolio</span>
+        <img src="images/profile.jpg" class="d-none d-lg-block rounded-circle" alt="My Photo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">My Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:8080">Chat With Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- //NAVBAR -->
+
+  <!-- CONTENT-WRAPPER -->
+  <div id="content-wrapper">
+
+    <!-- HOME -->
+    <section id="home" class="full-height px-lg-5">
+      <div class="container home">
+        <div class="row">
+          <div class="col-lg-10">
+            <img src="images/profile.jpg" class="d-block d-lg-none rounded img" alt="My Photo"><br>
+            <h1 class="display-2 fw-bold" data-aos="fade-up">I AM <span class="text-brand">Dhruv Saxena</span></h1>
+            <h1 class="display-2 fw-bold" data-aos="fade-up">A <span class="text-brand">Data Scientist</span></h1>
+            <p class="lead mt-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+              I’m a Data Scientist with a strong focus on Machine Learning, Deep Learning, and Natural Language Processing, passionate about building scalable, real-world AI solutions. I specialize in integrating LLMs, RAG pipelines, and Agentic AI systems using tools like LangChain, LangGraph, CrewAI, and Agno.
+              With solid experience in Python, I develop models using scikit-learn, PyTorch, TensorFlow, and Hugging Face, and deploy them through robust MLOps pipelines built with GitHub Actions, Jenkins, MLflow, DVC, and Airflow. I deploy solutions on AWS EC2/ECR, and use Kafka for real-time integration.
+              I combine deep technical expertise with a practical mindset to deliver intelligent, end-to-end AI systems — from data to deployment.
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="600">
+              <a href="#projects" class="btn-hover text-nowrap">Explore My Projects</a>
+              <a href="https://www.youtube.com/@dhruva.saxena" target="_blank" class="btn-hover text-nowrap">My YouTube Channel</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //HOME -->
+
+    <!-- SKILLS -->
+    <section id="skills" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h2 class="text-brand" data-aos="fade-up">🔍 Some Things I'm Good At!</h2>
+          </div>
+        </div>
+
+        <!-- Wrap skills as a toggleable section -->
+        <div class="skills-section">
+          <div class="row gy-4 skills-list">
+
+            <!-- SKILL1 -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-code"></i></div>
+                <h5 class="mt-4 mb-2 text-brand">Programming Language (Python 🐍)</h5>
+                <p>I develop robust machine learning solutions using Python with strong object-oriented programming principles.
+                  My expertise includes efficient data processing, feature engineering, and building end-to-end ML pipelines.
+                  I leverage Python's rich ecosystem including NumPy, Pandas, and Scikit-learn to create scalable, maintainable code.
+                </p>
+              </div>
+            </div>
+
+            <!-- SKILL2 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-database"></i></div>
+                <h5 class="mt-4 mb-2 text-brand">🗄️ Databases & Vector Stores</h5>
+                <p>I manage data across a variety of storage systems including MySQL, PostgreSQL, and MongoDB for structured
+                  and semi-structured data. I also work with vector databases like FAISS, Pinecone, and Weaviate to build
+                  intelligent search systems that power LLM-based applications like RAG and recommendation engines.
+                </p>
+              </div>
+            </div>
+
+            <!-- SKILL3 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-brain"></i></div>
+                <h5 class="mt-4 mb-2 text-brand">🧠 Machine Learning & 🤖 Deep Learning</h5>
+                <p>I have expertise across the machine learning spectrum, from traditional algorithms to neural networks.
+                  I implement regression, classification, ensemble methods, and clustering for diverse applications.
+                  In deep learning, I design CNN, RNN, and Transformer architectures using PyTorch and TensorFlow for computer
+                  vision, NLP, and complex predictive tasks.
+                </p>
+              </div>
+            </div>
+
+            <!-- SKILL4 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-comment-dots"></i></div>
+                <h5 class="mt-4 mb-2 text-brand">🧬 NLP & Generative AI </h5>
+                <p>I build advanced NLP solutions using state-of-the-art language models. My skills include fine-tuning LLMs (GPT, Claude, LLaMA),
+                  implementing Retrieval-Augmented Generation (RAG) systems with vector databases, and optimizing prompt engineering.
+                  I develop applications for text classification, sentiment analysis, and conversational AI with semantic search capabilities.
+                </p>
+              </div>
+            </div>
+
+            <!-- SKILL5 -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-robot"></i></div>
+                <h5 class="mt-4 mb-2 text-brand"> 🧭 Agentic AI & Orchestration Frameworks </h5>
+                <p>I develop intelligent autonomous systems using LangChain, LangGraph, and CrewAI frameworks.
+                  I design specialized multi-agent systems that can perform complex reasoning, planning, and task execution.
+                  My experience includes creating AI agents with memory persistence, custom tools integration, and orchestrating
+                  multi-agent workflows for data analysis and business process automation
+                </p>
+              </div>
+            </div>
+
+            <!-- SKILL6 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="skills p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4"><i class="las la-cloud-upload-alt"></i></div>
+                <h5 class="mt-4 mb-2 text-brand">🚀 MLOps, CI/CD & Deployment</h5>
+                <p>I specialize in building robust MLOps pipelines to automate the deployment, monitoring, and
+                  management of machine learning models in production. My skillset includes GitHub Actions and Jenkins
+                  for CI/CD, along with MLflow and DVC for experiment tracking and version control. I use Apache
+                  Airflow to orchestrate workflows and Kafka for real-time data streaming and model integration.
+                  For deployment, I work with AWS services like EC2 and ECR to host and scale containerized models efficiently.
+                </p>
+              </div>
+            </div>
+
+
+            <!-- (Add more skills; >6 will collapse under Show More) -->
+
+          </div>
+          <div class="controls">
+            <button class="btn-hover show-more-btn" type="button">Show More</button>
+          </div>
+        </div>
+        <!-- //skills-section -->
+      </div>
+    </section>
+    <!-- //SKILLS -->
+
+    <!-- PROJECTS -->
+    <section id="projects" class="full-height px-lg-5 dropdown">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-8">
+            <h2 class="text-brand" data-aos="fade-up">Some Things I've Created!</h2>
+          </div>
+        </div>
+
+        <!-- ========== ML Projects ========== -->
+        <h4 class="text-brand" data-aos="fade-up">Machine Learning Projects</h4>
+        <div class="project-section" data-section="ml">
+          <div id="ml" class="row gy-4 project-list">
+
+            <!-- Student Marks -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank">
+                    <img class="rounded-4" src="images/student-marks.jpg" alt="Student-Marks">
+                  </a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/oE4ZEbMpMdE?si=_E93ysDfrFR_yoHA" target="_blank">Student-Marks Prediction</a></h5>
+                  <p>This model aims to predict student’s marks using linear regression. The project provides a quick way to predict a student's mark
+                    based on how many hours they study.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/oE4ZEbMpMdE?si=_E93ysDfrFR_yoHA" class="link-custom px-3" target="_blank">Video Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- US Visa -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank">
+                    <img class="rounded-4" src="images/us-visa.jpg" alt="Us-Visa">
+                  </a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/5N17dtFN7Lk?si=twX5Y9sIFi9odOuS" target="_blank">US-Visa Approval Prediction</a></h5>
+                  <p>A data-driven pipeline that analyzes historical data to predict visa approval outcomes using machine learning models.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/5N17dtFN7Lk?si=twX5Y9sIFi9odOuS" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Movie Rec -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank">
+                    <img class="rounded-4" src="images/movie-recommendation.png" alt="Movie Recommendation">
+                  </a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://www.youtube.com/watch?v=j3R8r0y6NRQ" target="_blank">Movie Recommendation System</a></h5>
+                  <p>A recommendation engine that predicts preferred items using user profiles and similarities, ranking items to match preferences.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://www.youtube.com/watch?v=j3R8r0y6NRQ" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Insurance -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank">
+                    <img class="rounded-4" src="images/insurance.jpeg" alt="Insurance Image">
+                  </a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://www.youtube.com/watch?v=42bxGQGHEdM" target="_blank">Insurance Premium Prediction</a></h5>
+                  <p>Estimates insurance cost based on individual health profiles to help users compare plans with a realistic cost anchor.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://www.youtube.com/watch?v=42bxGQGHEdM" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="controls">
+            <button class="btn-hover show-more-btn" type="button">Show More</button>
+          </div>
+        </div>
+        <!-- ========== /ML Projects ========== -->
+
+        <!-- ========== Deep Learning Projects ========== -->
+        <h4 class="text-brand" data-aos="fade-up">Deep Learning Projects</h4>
+        <div class="project-section" data-section="dl">
+          <div id="dl" class="row gy-4 project-list">
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/safety.jpg" alt="Safety"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/s2BLVo-LMI4" target="_blank">Industry Safety Detection (Yolov7)</a></h5>
+                  <p>Detects safety equipment on workers — a building block for tracking and alarms to improve on-site safety.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/s2BLVo-LMI4" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/car.jpeg" alt="ANPR"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://www.youtube.com/watch?v=EMJwK_Hwgkc" target="_blank">Automatic Number Plate Recognition System 🚗</a></h5>
+                  <p>Reads vehicle number plates using high-speed image capture and OCR with sequence verification.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://www.youtube.com/watch?v=EMJwK_Hwgkc" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/sign_language.png" alt="Sign Language"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/8cHWQ-gax7o" target="_blank">Sign Language Detection</a></h5>
+                  <p>Recognizes sign language gestures and translates them into text or speech using computer vision and sequence models.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/8cHWQ-gax7o" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="controls">
+            <button class="btn-hover show-more-btn" type="button">Show More</button>
+          </div>
+        </div>
+        <!-- ========== /Deep Learning Projects ========== -->
+
+        <!-- ========== NLP & Gen-AI Projects ========== -->
+        <h4 class="text-brand" data-aos="fade-up">Natural Language Processing and Generative AI (LLM) Projects</h4>
+        <div class="project-section" data-section="nlp">
+          <div id="nlp" class="row gy-4 project-list">
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/hate_speech.webp" alt="Hate Speech"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/n2eIlGLy1DQ" target="_blank">Hate Speech Detection</a></h5>
+                  <p>Detects and flags hate speech directed at protected characteristics, supporting safer online communities and moderation pipelines.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/n2eIlGLy1DQ" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/chatbot.jpg" alt="Ecommerce Chatbot"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/kJe7wf53xmA" target="_blank">E-Commerce Chatbot</a></h5>
+                  <p>Assists shoppers with product discovery and FAQs, leveraging retrieval and conversational flows to improve conversion and CX.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/kJe7wf53xmA" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/mcq.png" alt="MCQ"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/5dJk2Q7RmMg" target="_blank">MCQ Test Generator Chatbot</a></h5>
+                  <p>Generates multiple-choice questions from PDFs using LLMs to help educators and learners create practice sets quickly.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/5dJk2Q7RmMg" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <a href="https://github.com/" target="_blank"><img class="rounded-4" src="images/yt_chatbot.jpeg" alt="YouTube Chatbot"></a>
+                </div>
+                <div class="card-custom-content p-4">
+                  <h5><a href="https://youtu.be/Wdwaf2XCZl4" target="_blank">YouTube Video Chatbot</a></h5>
+                  <p>Lets users query long-form videos and quickly extract insights — summaries, timestamps, and answers to specific questions.</p>
+                  <div class="col">
+                    <a href="https://github.com/" class="link-custom px-3" target="_blank">Source Code</a>
+                    <a href="https://youtu.be/Wdwaf2XCZl4" class="link-custom px-3" target="_blank">Demo Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="controls">
+            <button class="btn-hover show-more-btn" type="button">Show More</button>
+          </div>
+        </div>
+        <!-- ========== /NLP Projects ========== -->
+
+      </div>
+    </section>
+    <!-- //PROJECTS -->
+
+    <!-- ABOUT -->
+    <section id="about" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4" data-aos="fade-up">
+          <div class="col-lg-12">
+            <h2 class="text-brand">Some Things About Me!</h2>
+            <div class="lead mt-5 mb-3 d-flex flex-column" data-aos="fade-up" data-aos-delay="300">
+              <p>👋 Hello, I'm Dhruv Saxena, and I'm passionate about the world of data and intelligent systems. I'm actively seeking new opportunities in the fields of Machine Learning, Data Science, Natural Language Processing, and Agentic AI. With a strong foundation in programming and applied statistics, I enjoy turning complex data into actionable insights and building real-world AI solutions that make an impact. </p>
+              <p>🔑 Key Skills: Programming (Python 🐍) | Databases (MySQL 📂, MongoDB 💽, Vector DBs like FAISS & Pinecone) | APIs (Flask, FastAPI) | Machine Learning (Scikit-learn 🤖, XGBoost) | Deep Learning (PyTorch, TensorFlow) | NLP & LLMs (BERT, GPT, T5, Hugging Face) | RAG Pipelines | Agentic AI (LangGraph, LangChain, CrewAI, Agno) | MLOps Tools (MLflow, DVC, Apache Airflow) | CI/CD (GitHub Actions, Jenkins) | Cloud (AWS – EC2, ECR, SageMaker ☁️, Azure) | Real-Time Systems (Kafka) | Version Control (Git, GitHub, GitLab)</p>
+              <p>🚀 My journey has been driven by a deep curiosity to solve meaningful problems using data. I've worked on several applied machine learning projects, including 'US-Visa Approval Prediction', 'Industry Safety Detection', and more, where I built predictive models, handled real-world datasets, and deployed end-to-end solutions. These experiences taught me how to move from experimentation to production while maintaining scalability and performance.</p>
+              <p>🔬 I’m also experienced in MLOps and the development of CI/CD pipelines. I use tools like GitHub Actions, Jenkins, Docker, and Airflow to automate model training and deployment workflows. My cloud deployment experience includes hosting models on AWS EC2/ECR and leveraging SageMaker for scalable ML solutions. I’ve also worked with Kafka for integrating real-time data streams into machine learning pipelines.</p>
+              <p>💡 If you're looking for a data-driven engineer with hands-on experience in modern ML, NLP, MLOps, and Agentic AI, I'm always excited to connect, collaborate, and build innovative solutions.
+              <p>🤝 Let’s connect and explore how we can work together to drive intelligent insights and real-world value from data.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //ABOUT -->
+
+    <!-- CONTACT -->
+    <section id="contact" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row pb-4">
+          <div class="col-lg-12">
+            <h2 class="text-brand" data-aos="fade-up">Get In Touch</h2>
+            <div class="row lead mt-5 align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <p class="lead mb-4">Interested in learning more about me? My inbox is always open, let's connect.</p>
+              <div class="col-lg-8 mt-4 form" data-aos="fade-up" data-aos-delay="600">
+                <form action="https://api.web3forms.com/submit" method="POST" class="row g-lg-3 gy-3">
+                  <input type="hidden" name="access_key" value="864e6aca-ea6a-44b2-ad63-486233ea6745">
+                  <div class="form-group col-md-6"> Name:
+                    <input name="name" type="text" class="form-control" placeholder="Enter your Name">
+                  </div>
+                  <div class="form-group col-md-6"> Email:
+                    <input name="email" type="email" class="form-control" placeholder="Enter your email">
+                  </div>
+                  <div class="form-group col-12"> Message:
+                    <textarea name="message" rows="8" class="form-control" placeholder="Enter your message"></textarea>
+                  </div>
+                  <div class="form-group col-12">
+                    <button type="submit" class="btn-hover mx-auto" onclick="submitForm()">Send Message</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="col-auto mb-3">
+                  <p>My Email:</p>
+                  <a class="link-custom" href="mailto:saxena25dhruv@gmail.com" target="_blank">dhruvsaxena@dhruvsaxena25.com </a>
+                </div>
+                <div class="social-icons col-auto">
+                  <p>Social:</p>
+                  <a href="mailto:dhruvsaxena.uk@gmail.com" target="_blank"><i class="lar la-envelope"></i></a>
+                  <a href="https://github.com/" target="_blank"><i class="lab la-github"></i></a>
+                  <a href="https://www.linkedin.com/in/dhruv-saxena-25-08-2000aug/" target="_blank"><i class="lab la-linkedin"></i></a>
+                  <a href="https://twitter.com/DhruvSa24852752" target="_blank"><i class="lab la-twitter"></i></a>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="py-5 px-lg-5">
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-auto">
+            <a href="https://github.com/dhruva-25/" target="_blank">
+              <p class="mb-0">Dhruv Saxena <i class="lar la-copyright"></i> 2025 made with HTML5 <i class="lab la-html5"></i>, CSS3 <i class="lab la-css3-alt"></i>, JS and Python <i class="lab la-python"></i>.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- //FOOTER -->
+
+  </div>
+  <!-- //CONTENT-WRAPPER -->
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="aos.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Inline logic: AOS init + Show More (projects & skills) + per-card Read More (45 words) -->
+  <script>
+    // AOS safe init
+    document.addEventListener('DOMContentLoaded', function () {
+      if (window.AOS && typeof AOS.init === 'function') {
+        AOS.init({ once: true, duration: 600, easing: 'ease-out' });
+      } else {
+        document.querySelectorAll('[data-aos]').forEach(el => el.style.opacity = '1');
+      }
+    });
+
+    // Generic setup for toggle sections
+    (function () {
+      function setupSection(sectionEl, limit) {
+        const list = sectionEl.querySelector('.project-list, .skills-list');
+        if (!list) return;
+        const cards = Array.from(list.children).filter(el => el.className.includes('col-'));
+        const btn = sectionEl.querySelector('.show-more-btn');
+        if (!btn) return;
+
+        if (cards.length <= limit) {
+          btn.style.display = 'none';
+          return;
+        }
+        btn.addEventListener('click', function () {
+          sectionEl.classList.toggle('expanded');
+          btn.textContent = sectionEl.classList.contains('expanded') ? 'Show Less' : 'Show More';
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        // Projects: show 3, then expand
+        document.querySelectorAll('.project-section').forEach(el => setupSection(el, 3));
+        // Skills: show 6, then expand
+        document.querySelectorAll('.skills-section').forEach(el => setupSection(el, 6));
+      });
+    })();
+
+    // Per-card "Read more / Read less" for long descriptions (>= 45 words)
+    (function () {
+      const WORD_LIMIT = 45;
+
+      function wordCount(str) {
+        return (str.trim().match(/\S+/g) || []).length;
+      }
+      function truncateToWords(str, limit) {
+        const words = (str.trim().match(/\S+/g) || []);
+        if (words.length <= limit) return str.trim();
+        return words.slice(0, limit).join(' ') + '…';
+      }
+
+      // first <p> inside each .skills, and all <p> inside .card-custom-content
+      function collectTargets() {
+        const skillParas = Array.from(document.querySelectorAll('.skills p'));
+        const cardParas = Array.from(document.querySelectorAll('.card-custom-content p'));
+        return [...skillParas, ...cardParas];
+      }
+
+      function makeToggle(p) {
+        const original = p.textContent;
+        if (wordCount(original) <= WORD_LIMIT) return;
+
+        const truncated = truncateToWords(original, WORD_LIMIT);
+        p.setAttribute('data-fulltext', original);
+        p.textContent = truncated;
+
+        const btn = document.createElement('button');
+        btn.className = 'read-more-btn linky';
+        btn.type = 'button';
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = 'Read more';
+        p.insertAdjacentElement('afterend', btn);
+
+        btn.addEventListener('click', function () {
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          if (expanded) {
+            p.textContent = truncated;
+            btn.textContent = 'Read more';
+            btn.setAttribute('aria-expanded', 'false');
+          } else {
+            p.textContent = p.getAttribute('data-fulltext');
+            btn.textContent = 'Read less';
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', function () {
+        collectTargets().forEach(makeToggle);
+      });
+    })();
+  </script>
+</body>
+</html>
